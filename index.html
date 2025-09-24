@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="QuL的個人網站，軟體工程師的作品集、部落格與技術分享平台。">
+    <meta name="keywords" content="軟體工程師,作品集,部落格,技術分享,QuL">
+    <meta name="author" content="QuL">
+
+    <!-- Security Headers -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; 
+                img-src 'self' data: https:;
+                script-src 'self'; 
+                style-src 'self' https://cdnjs.cloudflare.com;
+                font-src 'self' https://cdnjs.cloudflare.com;">
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+    <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
+
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>QuL | Software Engineer Portfolio</title>
+</head>
+
+<body>
+    <!-- Loading Screen -->
+    <div class="loading" id="loading">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- Scroll Indicator -->
+    <div class="scroll-indicator" id="scrollIndicator"></div>
+
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">QuL | Software Engineer Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#home">首頁</a></li>
+                <li><a href="#blog" target="_blank">部落格</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <main>
+        <section class="hero" id="home">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1 class="hero-title">
+                            <span class="highlight">qulluq </span>Web Portal<br>
+                        </h1>
+                        <p class="hero-subtitle">
+                            深入了解我的技術分享與專案成果⬇</p>
+                    </div>
+                    <div class="hero-visual">
+                        <div class="avatar">
+                            <img src="./img/author.png" alt="author_img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Navigation Section -->
+    <section class="nav-section">
+        <div class="container">
+            <h2 class="section-title">網站列表</h2>
+            <div class="nav-grid">
+                <!-- Blog Card -->
+                <div class="nav-card" data-section="blog">
+                    <div class="nav-card-icon">
+                        <i class="fa-regular fa-pen-to-square"></i>
+                    </div>
+                    <h3>技術Blog</h3>
+                    <p>分享軟體開發技術分享、實務經驗與學習筆記。</p>
+                    <a href="#" class="nav-card-link" data-link="blog">閱讀文章</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div>
+                    <p>&copy; 2025 QuL. All rights reserved.</p>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/QvLowo" title="GitHub" rel="noopener noreferrer">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/yu-wen-kong-367356346/" title="LinkedIn"
+                        rel="noopener noreferrer">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="#" title="Email" rel="noopener noreferrer">
+                        <i class="fa-regular fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
