@@ -123,7 +123,6 @@ const App = {
     init() {
         this.bindEvents();
         this.initializeComponents();
-        console.log('Portfolio application initialized successfully');
     },
 
     /**
